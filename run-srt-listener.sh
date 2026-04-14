@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-DEFAULT_VIDEO_FILE="mapp20Test.ts"
+DEFAULT_VIDEO_FILE="people-detection.mp4"
 VIDEO_FILE="${1:-$DEFAULT_VIDEO_FILE}"
 
 usage() {
